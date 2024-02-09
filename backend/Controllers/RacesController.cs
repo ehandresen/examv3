@@ -34,4 +34,22 @@ public class RacesController : ControllerBase
             return StatusCode(500); // Server error
         }
     }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Race>> GetById(int id)
+    {
+        try
+        {
+            Race? race = await context.Races.FindAsync(id);
+
+            if (race is null)
+                return NotFound($"No race with id '{id}'");
+
+            return Ok(race);
+        }
+        catch
+        {
+            return StatusCode(500);
+        }
+    }
 }
