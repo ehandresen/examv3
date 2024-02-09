@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "oC7nVzTz4WKRASw+zVJ7U4x84HE8T1QQVcylX/V4RWQ=",
+  "Source": "backend",
+  "BasePath": "_content/backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "backend\\wwwroot",
+      "Source": "backend",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
