@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oC7nVzTz4WKRASw+zVJ7U4x84HE8T1QQVcylX/V4RWQ=",
+  "Hash": "8FpJq3lWSQPKEr8T4gWGZGjBuDUlLrET2V5BDy/cVZA=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -15,5 +15,63 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\australia.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/australia.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\australia.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\indonesia.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/indonesia.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\indonesia.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\saudi.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/saudi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\saudi.jpg"
+    }
+  ]
 }

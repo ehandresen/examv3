@@ -52,4 +52,23 @@ public class RacesController : ControllerBase
             return StatusCode(500);
         }
     }
+
+    [HttpGet]
+    [Route("[action]/{grandPrix}")]
+    public async Task<ActionResult<Race>> GetByGrandPrix(string grandPrix)
+    {
+        try
+        {
+            Race? race = await context.Races.FirstOrDefaultAsync(race => race.GrandPrix.ToLower().Contains(grandPrix.ToLower()));
+
+            if (race is null)
+                return NotFound($"Grand Prix containing '{grandPrix}' not found");
+
+            return Ok(race);
+        }
+        catch
+        {
+            return StatusCode(500);
+        }
+    }
 }
