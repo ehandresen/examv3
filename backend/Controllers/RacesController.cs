@@ -95,4 +95,21 @@ public class RacesController : ControllerBase
 
     }
 
+    [HttpPost]
+    public async Task<ActionResult<Race>> Post(Race newRace)
+    {
+        try
+        {
+            context.Races.Add(newRace);
+            await context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetById), new { id = newRace.Id }, newRace);
+        }
+        catch
+        {
+
+            return StatusCode(500);
+        }
+    }
+
 }
