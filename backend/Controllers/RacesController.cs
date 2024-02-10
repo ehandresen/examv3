@@ -59,7 +59,8 @@ public class RacesController : ControllerBase
     {
         try
         {
-            Race? race = await context.Races.FirstOrDefaultAsync(race => race.GrandPrix.ToLower().Contains(grandPrix.ToLower()));
+            Race? race = await context.Races
+                .FirstOrDefaultAsync(race => race.GrandPrix.ToLower().Contains(grandPrix.ToLower()));
 
             if (race is null)
                 return NotFound($"Grand Prix containing '{grandPrix}' not found");
@@ -71,4 +72,27 @@ public class RacesController : ControllerBase
             return StatusCode(500);
         }
     }
+
+    [HttpGet]
+    [Route("[action]/{maxLaps}")]
+    public async Task<ActionResult<List<Race>>> GetMaxLaps(int maxLaps)
+    {
+        try
+        {
+            List<Race> races = await context.Races
+                .Where(race => race.NumberOfLaps <= maxLaps)
+                .ToListAsync();
+
+            if (races is null || races.Count == 0)
+                return NotFound($"No races with laps equal too or less then '{maxLaps}'");
+
+            return Ok(races);
+        }
+        catch
+        {
+            return StatusCode(500);
+        }
+
+    }
+
 }
