@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Races API Documentation</title>
+  </head>
+  <body>
+    <h1>Races API Documentation</h1>
+
+    <h2>Get All Races</h2>
+    <p>Retrieve a list of all races.</p>
+    <code>GET /api/races</code>
+
+    <h2>Get Race by ID</h2>
+    <p>Retrieve information about a specific race by providing its ID.</p>
+    <code>GET /api/races/{id}</code>
+
+    <h2>Get Race by Grand Prix</h2>
+    <p>
+      Retrieve information about a race by providing part of its Grand Prix
+      name.
+    </p>
+    <code>GET /api/races/GetByGrandPrix/{grandPrix}</code>
+
+    <h2>Get Races with Max Laps</h2>
+    <p>
+      Retrieve races with a number of laps equal to or less than the specified
+      value.
+    </p>
+    <code>GET /api/races/GetMaxLaps/{maxLaps}</code>
+
+    <h2>Add a New Race</h2>
+    <p>
+      Add a new race by providing the necessary details in the request body.
+    </p>
+    <code>POST /api/races</code>
+
+    <h2>Update a Race</h2>
+    <p>
+      Update an existing race by providing the updated details in the request
+      body.
+    </p>
+    <code>PUT /api/races</code>
+
+    <h2>Delete a Race</h2>
+    <p>Delete a race by providing its ID.</p>
+    <code>DELETE /api/races/{id}</code>
+  </body>
+</html>
