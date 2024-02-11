@@ -128,4 +128,26 @@ public class RacesController : ControllerBase
         }
     }
 
+    [HttpDelete("id")]
+    public async Task<ActionResult> Delete(int id)
+    {
+        try
+        {
+            Race? race = await context.Races.FindAsync(id);
+
+            if (race is null)
+                return NotFound($"No race with id '{id}'");
+
+            context.Races.Remove(race);
+            await context.SaveChangesAsync();
+
+            return NoContent(); // 204
+
+        }
+        catch
+        {
+            return StatusCode(500);
+        }
+    }
+
 }
