@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8FpJq3lWSQPKEr8T4gWGZGjBuDUlLrET2V5BDy/cVZA=",
+  "Hash": "asF4cnsIIL5PmC+kSmCqToffx87jhwhc+GWapqglRho=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\indonesia.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\monaco.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/monaco.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\monaco.jpg"
     },
     {
       "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\saudi.jpg",

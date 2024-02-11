@@ -107,7 +107,23 @@ public class RacesController : ControllerBase
         }
         catch
         {
+            return StatusCode(500);
+        }
+    }
 
+    [HttpPut]
+    public async Task<ActionResult<Race>> Put(Race updatedRace)
+    {
+        try
+        {
+            context.Entry(updatedRace).State = EntityState.Modified;
+
+            await context.SaveChangesAsync();
+
+            return Ok();
+        }
+        catch
+        {
             return StatusCode(500);
         }
     }
