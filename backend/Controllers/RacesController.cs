@@ -128,7 +128,7 @@ public class RacesController : ControllerBase
         }
     }
 
-    [HttpDelete("id")]
+    [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)
     {
         try
