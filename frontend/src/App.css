@@ -1,0 +1,27 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline; /* Display list items inline */
+  margin-right: 15px; /* Add some spacing between list items */
+}
+
+/* Style the links */
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Set text color to white */
+  font-weight: bold; /* Set font weight to bold */
+}
+
+/* Add hover effect to links */
+nav a:hover {
+  color: yellow; /* Change text color on hover */
+}
