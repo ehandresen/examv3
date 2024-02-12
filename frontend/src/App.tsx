@@ -1,7 +1,15 @@
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom"; }
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <BrowserRouter>
+      <main>
+        <Routes>
+          <Route></Route>
+        </Routes>
+      </main>
+      </BrowserRouter>
     </>
   );
 }
