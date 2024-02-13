@@ -8,7 +8,10 @@ interface RaceItemProps {
 const RaceItem: FC<RaceItemProps> = ({ race }) => {
   return (
     <div>
-      <h3>{race.grandPrix}</h3>
+      <h3>Grand Prix: {race.grandPrix}</h3>
+      <p>Winner: {race.winnerName}</p>
+      <p>Time: {race.winnerTime}</p>
+      <p>Laps: {race.numberOfLaps}</p>
     </div>
   );
 };
