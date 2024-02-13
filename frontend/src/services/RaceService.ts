@@ -4,13 +4,20 @@ const RaceService = (() => {
   const controller = 'http://localhost:5000/api/races';
 
   async function getAll() {
-    const result = await axios.get(controller);
+    const response = await axios.get(controller);
 
-    return result.data;
+    return response.data;
+  }
+
+  async function getById(id: number) {
+    const response = await axios.get(`${controller}/${id}`);
+
+    return response.data;
   }
 
   return {
     getAll,
+    getById,
   };
 })();
 

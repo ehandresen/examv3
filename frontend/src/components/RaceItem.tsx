@@ -10,12 +10,18 @@ const imageURL = 'http://localhost:5000/images';
 
 const RaceItem: FC<RaceItemProps> = ({ race }) => {
   return (
-    <div className="race-item">
-      <h3>Grand Prix: {race.grandPrix}</h3>
-      <p>Winner: {race.winnerName}</p>
-      <p>Time: {race.winnerTime}</p>
-      <p>Laps: {race.numberOfLaps}</p>
-      <img src={`${imageURL}/${race.image}`} alt="" />
+    <div className="card race-item">
+      <div className="card-body">
+        <h5 className="card-title">{race.grandPrix}</h5>
+        <p className="card-text">Winner: {race.winnerName}</p>
+        <p className="card-text">Time: {race.winnerTime}</p>
+        <p className="card-text">Laps: {race.numberOfLaps}</p>
+        <img
+          src={`${imageURL}/${race.image}`}
+          alt={race.grandPrix}
+          className="card-img-top"
+        />
+      </div>
     </div>
   );
 };

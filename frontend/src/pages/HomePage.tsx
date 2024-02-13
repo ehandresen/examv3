@@ -3,7 +3,7 @@ import RaceList from '../components/RaceList';
 const HomePage = () => {
   return (
     <>
-      <h1>HomePage</h1>
+      <h1>HomePage: List of all Grand Prix's</h1>
       <RaceList />
     </>
   );

@@ -16,15 +16,13 @@ const RaceList = () => {
     setRaces(data);
   }
 
-  function getListJSX() {
-    return races.map((race) => (
-      <section key={race.id}>
-        <RaceItem race={race} />
-      </section>
-    ));
-  }
+  const raceItem = races.map((race) => (
+    <section key={race.id}>
+      <RaceItem race={race} />
+    </section>
+  ));
 
-  return <>{getListJSX()}</>;
+  return <>{raceItem}</>;
 };
 
 export default RaceList;
