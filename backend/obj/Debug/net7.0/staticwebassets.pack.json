@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\australia.jpg",
       "PackagePath": "staticwebassets\\images\\australia.jpg"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\saudi.jpg",
       "PackagePath": "staticwebassets\\images\\saudi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",

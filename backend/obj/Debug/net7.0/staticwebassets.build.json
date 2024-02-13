@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "asF4cnsIIL5PmC+kSmCqToffx87jhwhc+GWapqglRho=",
+  "Hash": "tuiKvgshjulGfHgX8r+VvyYdQeoGmsWzlnqIxDmRbUM=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\css\\style.css",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
     {
       "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\australia.jpg",
       "SourceId": "backend",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\saudi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\index.html",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     }
   ]
 }
