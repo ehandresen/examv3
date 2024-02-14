@@ -31,12 +31,19 @@ const GetById = () => {
   return (
     <>
       <label htmlFor="id">Search id: </label>
-      <input type="text" id="id" onChange={handleChange} />
+      <input
+        type="text"
+        id="id"
+        onChange={handleChange}
+        style={{ marginBottom: '15px' }}
+      />
 
       {race !== null ? (
-        <RaceItem race={race} />
+        <div className="card-container">
+          <RaceItem race={race} />
+        </div>
       ) : (
-        <p>No race found for id: {id}</p>
+        <p>No race found with id: {id}</p>
       )}
     </>
   );

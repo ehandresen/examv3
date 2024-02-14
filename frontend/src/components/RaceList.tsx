@@ -16,13 +16,9 @@ const RaceList = () => {
     setRaces(data);
   }
 
-  const raceItem = races.map((race) => (
-    <section key={race.id}>
-      <RaceItem race={race} />
-    </section>
-  ));
+  const raceItem = races.map((race) => <RaceItem key={race.id} race={race} />);
 
-  return <>{raceItem}</>;
+  return <div className="card-container">{raceItem}</div>;
 };
 
 export default RaceList;

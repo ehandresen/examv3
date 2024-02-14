@@ -9,16 +9,16 @@
       "PackagePath": "staticwebassets\\images\\australia.jpg"
     },
     {
-      "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\indonesia.jpg",
-      "PackagePath": "staticwebassets\\images\\indonesia.jpg"
-    },
-    {
       "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\monaco.jpg",
       "PackagePath": "staticwebassets\\images\\monaco.jpg"
     },
     {
       "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\saudi.jpg",
       "PackagePath": "staticwebassets\\images\\saudi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\singapore.jpg",
+      "PackagePath": "staticwebassets\\images\\singapore.jpg"
     },
     {
       "Id": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\index.html",

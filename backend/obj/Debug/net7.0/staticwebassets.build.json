@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tuiKvgshjulGfHgX8r+VvyYdQeoGmsWzlnqIxDmRbUM=",
+  "Hash": "YqB5jkRk/Qt0iyiiDrYmVeQMlxRNuPmTzHPgMcJ4xXQ=",
   "Source": "backend",
   "BasePath": "_content/backend",
   "Mode": "Default",
@@ -55,25 +55,6 @@
       "OriginalItemSpec": "wwwroot\\images\\australia.jpg"
     },
     {
-      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\indonesia.jpg",
-      "SourceId": "backend",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
-      "BasePath": "_content/backend",
-      "RelativePath": "images/indonesia.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\indonesia.jpg"
-    },
-    {
       "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\monaco.jpg",
       "SourceId": "backend",
       "SourceType": "Discovered",
@@ -110,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\saudi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\images\\singapore.jpg",
+      "SourceId": "backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\",
+      "BasePath": "_content/backend",
+      "RelativePath": "images/singapore.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\singapore.jpg"
     },
     {
       "Identity": "C:\\Users\\Eirik\\Desktop\\fullstack\\examv3\\backend\\wwwroot\\index.html",
