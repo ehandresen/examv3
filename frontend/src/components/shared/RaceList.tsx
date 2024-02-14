@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import RaceService from '../services/RaceService';
-import { Race } from '../interfaces/IRace';
+import RaceService from '../../services/RaceService';
+import { Race } from '../../interfaces/IRace';
 import RaceItem from './RaceItem';
 
 const RaceList = () => {

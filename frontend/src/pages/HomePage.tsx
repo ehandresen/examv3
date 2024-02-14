@@ -1,4 +1,4 @@
-import RaceList from '../components/RaceList';
+import RaceList from '../components/shared/RaceList';
 
 const HomePage = () => {
   return (

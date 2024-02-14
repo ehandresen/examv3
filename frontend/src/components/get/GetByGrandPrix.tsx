@@ -1,7 +1,7 @@
 import { useState, useEffect, ChangeEvent } from 'react';
 import RaceService from '../../services/RaceService';
 import { Race } from '../../interfaces/IRace';
-import RaceItem from '../RaceItem';
+import RaceItem from '../shared/RaceItem';
 
 const GetByGrandPrix = () => {
   const [input, setInput] = useState<string>('');

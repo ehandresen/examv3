@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { Race } from '../interfaces/IRace';
-import '../css/RaceItem.css';
+import { Race } from '../../interfaces/IRace';
+import '../../css/RaceItem.css';
 
 interface RaceItemProps {
   race: Race;

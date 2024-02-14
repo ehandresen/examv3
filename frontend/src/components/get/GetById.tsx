@@ -1,7 +1,7 @@
 import { Race } from '../../interfaces/IRace';
 import { ChangeEvent, useEffect, useState } from 'react';
 import RaceService from '../../services/RaceService';
-import RaceItem from '../RaceItem';
+import RaceItem from '../shared/RaceItem';
 
 const GetById = () => {
   const [race, setRace] = useState<Race | null>(null);

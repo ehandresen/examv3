@@ -19,10 +19,10 @@ function App() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/getById">GetById</Link>
+                <Link to="/id">Search Id</Link>
               </li>
               <li>
-                <Link to="/getByGP">GetByGrandPrix</Link>
+                <Link to="/grandPrix">Search GrandPrix</Link>
               </li>
               <li>
                 <Link to="/create">Create</Link>
@@ -39,8 +39,8 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
-            <Route path="/getById" element={<GetByIdPage />}></Route>
-            <Route path="/getByGP" element={<GetByGrandPrixPage />}></Route>
+            <Route path="/id" element={<GetByIdPage />}></Route>
+            <Route path="/grandPrix" element={<GetByGrandPrixPage />}></Route>
             <Route path="/create" element={<CreateNewRacePage />}></Route>
             <Route path="/update" element={<UpdateRacePage />}></Route>
             <Route path="/delete" element={<DeleteRacePage />}></Route>
