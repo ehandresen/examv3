@@ -20,7 +20,9 @@ const RaceService = (() => {
   // GET by grandPrix
   async function getByGrandPrix(grandPrix: string) {
     try {
-      const response = await axios.get(`${controller}/${grandPrix}`);
+      const response = await axios.get(
+        `${controller}/getByGrandPrix/${grandPrix}`
+      );
 
       return response.data;
     } catch (error) {
