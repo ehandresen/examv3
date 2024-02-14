@@ -4,5 +4,5 @@ export interface Race {
   winnerName: string;
   winnerTime: string;
   numberOfLaps: number;
-  image: string;
+  image: string | undefined;
 }
