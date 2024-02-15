@@ -1,9 +1,10 @@
 import { createContext } from 'react';
 import { Race } from '../interfaces/IRace';
+import { IRaceContext } from '../interfaces/IRaceContext';
 
 export const RaceContext = createContext<Race | null>(null);
 
-// typescript krever at vi redegjør (gjennom et interface)
+// typescript krever at vi redegjør (gjennom et interface), i dette tilfellet IRaceContext.ts
 // 1. hvilke data en context skal tilby
 // 2. hvilke funkjsoner en context skal ha
 
