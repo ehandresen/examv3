@@ -1,5 +1,5 @@
 export interface Race {
-  id?: number;
+  id?: number; //id? = not required
   grandPrix: string;
   winnerName: string;
   winnerTime: string;

@@ -7,6 +7,7 @@ import {
   UpdateRacePage,
   DeleteRacePage,
 } from './pages';
+import { RaceProvider } from './contexts/RaceContext';
 
 function App() {
   return (
@@ -37,16 +38,18 @@ function App() {
             </ul>
           </nav>
         </header>
-        <main>
-          <Routes>
-            <Route path="/" element={<HomePage />}></Route>
-            <Route path="id" element={<GetByIdPage />}></Route>
-            <Route path="grand-prix" element={<GetByGrandPrixPage />}></Route>
-            <Route path="create" element={<CreateNewRacePage />}></Route>
-            <Route path="update" element={<UpdateRacePage />}></Route>
-            <Route path="delete" element={<DeleteRacePage />}></Route>
-          </Routes>
-        </main>
+        <RaceProvider>
+          <main>
+            <Routes>
+              <Route path="/" element={<HomePage />}></Route>
+              <Route path="id" element={<GetByIdPage />}></Route>
+              <Route path="grand-prix" element={<GetByGrandPrixPage />}></Route>
+              <Route path="create" element={<CreateNewRacePage />}></Route>
+              <Route path="update" element={<UpdateRacePage />}></Route>
+              <Route path="delete" element={<DeleteRacePage />}></Route>
+            </Routes>
+          </main>
+        </RaceProvider>
       </BrowserRouter>
     </>
   );
