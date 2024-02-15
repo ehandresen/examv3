@@ -46,7 +46,9 @@ const CreateNewRace = () => {
         image: image?.name, //name of the file, saved as a string
       };
 
-      await RaceService.createNewRace(newTeam, image);
+      if (image !== null) {
+        await RaceService.createNewRace(newTeam, image);
+      }
     } catch (error) {
       console.log(error);
     }
@@ -96,7 +98,7 @@ const CreateNewRace = () => {
       <br />
 
       <label htmlFor="image">Image</label>
-      <input type="file" name="image" />
+      <input type="file" name="image" onChange={handleChange} />
 
       <br />
 

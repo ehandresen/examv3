@@ -3,7 +3,7 @@ import { Race } from '../interfaces/IRace';
 
 const RaceService = (() => {
   const controller = 'http://localhost:5000/api/races';
-  const imageUploadController = 'http://localhost:5000/ImageUpload';
+  const imageUploadController = 'http://localhost:5000/api/ImageUpload';
 
   // GET
   async function getAll() {
