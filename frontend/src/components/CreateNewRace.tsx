@@ -8,6 +8,8 @@ const CreateNewRace = () => {
   const [numberOfLaps, setNumberOfLaps] = useState<number>(0);
   const [image, setImage] = useState<File | null>(null);
 
+  const [saveStatus, setSaveStatus] = useState<string | null>(null);
+
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
     switch (event.target.name) {
       case 'grandPrix':
@@ -48,9 +50,11 @@ const CreateNewRace = () => {
 
       if (image !== null) {
         await RaceService.createNewRace(newTeam, image);
+        setSaveStatus('Save successful');
       }
     } catch (error) {
       console.log(error);
+      setSaveStatus('Save failed. Please try again');
     }
   }
 
@@ -101,6 +105,8 @@ const CreateNewRace = () => {
       <input type="file" name="image" onChange={handleChange} />
 
       <br />
+
+      {saveStatus && <p>{saveStatus}</p>}
 
       <button onClick={saveTeam}>Save</button>
     </>

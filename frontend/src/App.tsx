@@ -11,6 +11,7 @@ import {
 function App() {
   return (
     <>
+      {/* Ideelt sett flyttes hele 'nav' til en egen compnent */}
       <BrowserRouter>
         <header>
           <nav>
@@ -19,19 +20,19 @@ function App() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/id">Search Id</Link>
+                <Link to="id">Search Id</Link>
               </li>
               <li>
-                <Link to="/grandPrix">Search GrandPrix</Link>
+                <Link to="grand-prix">Search GrandPrix</Link>
               </li>
               <li>
-                <Link to="/create">Create</Link>
+                <Link to="create">Create</Link>
               </li>
               <li>
-                <Link to="/update">Update</Link>
+                <Link to="update">Update</Link>
               </li>
               <li>
-                <Link to="/delete">Delete</Link>
+                <Link to="delete">Delete</Link>
               </li>
             </ul>
           </nav>
@@ -39,11 +40,11 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
-            <Route path="/id" element={<GetByIdPage />}></Route>
-            <Route path="/grandPrix" element={<GetByGrandPrixPage />}></Route>
-            <Route path="/create" element={<CreateNewRacePage />}></Route>
-            <Route path="/update" element={<UpdateRacePage />}></Route>
-            <Route path="/delete" element={<DeleteRacePage />}></Route>
+            <Route path="id" element={<GetByIdPage />}></Route>
+            <Route path="grand-prix" element={<GetByGrandPrixPage />}></Route>
+            <Route path="create" element={<CreateNewRacePage />}></Route>
+            <Route path="update" element={<UpdateRacePage />}></Route>
+            <Route path="delete" element={<DeleteRacePage />}></Route>
           </Routes>
         </main>
       </BrowserRouter>
